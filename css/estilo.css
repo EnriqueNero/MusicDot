@@ -92,6 +92,7 @@ textarea {
 button {
     font-weight: bold;
     background-color: white;
+    color: black;
     width: 100px;
     height: 50px;
 }
