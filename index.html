@@ -39,12 +39,14 @@
     </footer>
     <script type="text/javascript">
         /*Script de boas vindas*/
-        var NOME;
-        NOME = prompt('Entre com seu nome: ','Digite-o aqui: ');
-        document.write('Oi '+NOME+' esteja a vontade');
 
-
-
+        function exibePopup(){
+        let NOME;
+        NOME = window.prompt('Entre com seu nome: ','Digite-o aqui: ');
+        //window.document.write('Oi '+NOME+' esteja a vontade');
+        
+        document.getElementsByTagName('footer').item(0).innerHTML = 'ENRIQUE'
+        }
     </script>
     
     
